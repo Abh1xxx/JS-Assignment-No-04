@@ -1,0 +1,39 @@
+#list {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+.list-group-item {
+    display: flex  !important;
+    justify-content: space-between;
+    align-items: center;
+    /* Vertically center the text and icons */
+    position: relative;
+    /* Make the list item the container for absolute icons */
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: #ffffff;
+
+
+}
+
+.list-group-item:hover {
+    background-color: #e7f5e7;
+}
+
+button {
+    cursor: pointer;
+}
+
+.tickclickstyle {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+
+.task-text {
+    flex-grow: 1;
+   
+}

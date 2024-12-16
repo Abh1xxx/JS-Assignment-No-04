@@ -1,0 +1,18 @@
+.custom-shadow {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.9);
+    /* Darker and more intense shadow */
+}
+.input-test{
+    position: relative;
+}
+.icons {
+    /* right: 10px;
+    top: 73%;
+    transform: translateY(-50%);
+    cursor: pointer; */
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    cursor: pointer;
+}
+
