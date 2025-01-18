@@ -8,10 +8,13 @@ function signinHandler(event) {
     const name = SigninForm.Name.value;
 
     const email = SigninForm.Email.value;
-    const emailregex = '^[^@]+@[^@]+\.[^@]+$'
+    // const emailregex = '^[^@]+@[^@]+\.[^@]+$'
+    const emailregex = /^[^@]+@[^@]+\.[^@]+$/;
+
 
     const Password = SigninForm.Password.value;
-    const passwordRegex = /^(?=.*[A-Z])(?=.*[!@#$%^&*()_+\-=[\]{};':"\\|,.<>/?]).*$/;
+    // const passwordRegex = /^(?=.*[A-Z])(?=.*[!@#$%^&*()_+\-=[\]{};':"\\|,.<>/?]).*$/;
+    const passwordRegex = /^(?=.*[A-Z])(?=.*[!@#$%^&*()_+\-=[\]{};':"\\|,.<>/?]).{6,}$/;
 
     const ConfirmPassword = SigninForm.ConfirmPassword.value;
     // name validation
